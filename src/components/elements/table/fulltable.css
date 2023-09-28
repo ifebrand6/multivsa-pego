@@ -1,0 +1,50 @@
+table.transaction {
+    text-align: start;
+}
+
+.transaction thead tr>th {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    padding-left: 2px;
+}
+
+.transaction tbody tr>td {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    padding: 3px;
+    padding-left: 2px;
+    text-align: center;
+}
+
+td.total {
+    color: #16b979 !important;
+    font-size: 40px !important;
+    text-align: left;
+}
+
+tbody.buy tr td:first-child {
+    color: red;
+    text-align: left;
+}
+
+tbody.sell tr td:first-child {
+    color: #16b979;
+    text-align: left;
+}
+
+.dark-rounded-border-table {
+    border: 25px;
+    border: 1px solid #8080803d;
+    border-radius: 25px;
+    padding: 15px;
+    background: #252934;
+    border: 25px;
+    border: 1px solid #8080803d;
+    border-radius: 25px;
+    padding: 15px;
+    background: #252934;
+}
